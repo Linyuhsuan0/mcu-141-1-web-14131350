@@ -3,13 +3,16 @@ header{
 
     div.container {
         max-width: 90vw;
-        height: 4rem;
         margin: 0 auto;
 
         padding-left: 2rem;
         padding-right: 2rem;
 
+        >div{
+        height: 4rem;
+
         display: flex;
+        justify-content: space-between;
         align-items: center;
 
         h3{
@@ -17,7 +20,16 @@ header{
             font-size: 1.25rem;
             font-weight: 700;
             line-height: 1.75rem;
-            color: #137f;
+            color: #137fec;
         }
+
+        > div{
+            display: flex;
+            gap: 0.5rem;
+
+            
+            }
+        }
+
     }
 }
