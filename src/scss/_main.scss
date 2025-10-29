@@ -3,7 +3,29 @@ section{
     flex-direction: column;
     min-height: 100vh;
 
-    div.main{
+    div
+    {
+        &.container{
+            
+        max-width: 90vw;
+        margin: 0 auto;
+
+        padding-right: 2rem;
+        padding-left: 2rem;
+
+        >div{
+            height: 4rem;
+            width: 100%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            }
+
+    }
+    &.main{
         flex-grow: 1;
     }
+
+}
 }
