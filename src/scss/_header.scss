@@ -12,14 +12,7 @@ header{
            nav{
             display: flex;
             gap: 1.5rem;
-            a{
-                color: var(--text-color);
-                text-decoration: inherit;
-
-                &:hover{
-                    color: #137fec;
-                }
-            }
+            
         }
         div{
             display: flex;

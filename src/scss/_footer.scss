@@ -4,15 +4,7 @@ footer{
                 display: flex;
                 gap: 1.5rem;
 
-                >a{
-                color: var(--text-color);
-                text-decoration: inherit;
-
-                &:hover{
-                    color: #137fec;
-                }
-                }
-            
+                
         p{
             color: var(--text-color);
             font-size: 0.875rem;

@@ -3,10 +3,9 @@ section{
     flex-direction: column;
     min-height: 100vh;
 
-    div
-    {
+    div{
         &.container{
-            
+
         max-width: 90vw;
         margin: 0 auto;
 
@@ -29,3 +28,11 @@ section{
 
 }
 }
+a{
+                color: var(--text-color);
+                text-decoration: inherit;
+
+                &:hover{
+                    color: #137fec;
+                }
+            }
