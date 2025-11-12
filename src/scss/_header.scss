@@ -9,7 +9,7 @@ header{
             color: var(--primary-color);
         }
 
-           nav{
+        nav{
             display: flex;
             gap: 1.5rem;
             
@@ -22,10 +22,10 @@ header{
                 gap: 2rem;
             }
 
-            &.right{}
+            &.right{
             gap: 0.5rem;
             }
-            }
+            
 
         &.search{
             display: flex;
@@ -44,6 +44,7 @@ header{
                     outline: none;
                 }
             }
+        
 
             button{
                 border-top-right-radius: 1rem;
@@ -54,7 +55,7 @@ header{
                 cursor: pointer;
             }
         }
-
+    }
         button{
             background-color: transparent;
             padding: 0.5rem;
@@ -63,6 +64,5 @@ header{
             color: var(--text-color);
 
         
-        
         }
-    
+        }
