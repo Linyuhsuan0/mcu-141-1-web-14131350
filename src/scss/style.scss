@@ -1,3 +1,4 @@
+@use './variable';
 @use './main';
 @use './header';
 @use './body';
@@ -8,4 +9,9 @@ html,
 body{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+    
 }

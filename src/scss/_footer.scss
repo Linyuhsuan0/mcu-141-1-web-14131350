@@ -1,14 +1,15 @@
+@use './common.scss';
+
 footer{
     border-top: 1px solid var(--border-color);
 >div{
-                display: flex;
+                display: var(--nav-display);
                 gap: 1.5rem;
 
                 
         p{
             color: var(--text-color);
-            font-size: 0.875rem;
-            line-height: 1.25rem;
+            @include common.fontStyle(1.875rem, 400, 1.25rem);
         }
     }
 }
