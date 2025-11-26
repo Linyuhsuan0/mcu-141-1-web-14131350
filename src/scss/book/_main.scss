@@ -15,7 +15,6 @@ section{
             width: 100%;
 
             display: flex;
-            justify-content: space-between;
             align-items: center;
             }
 
@@ -37,10 +36,18 @@ main.wrapper {
         }
 
         &.page{
-        min-height: 700vh;
+        min-height: 700px;
         }
 
     }
 
 }
 }
+a{
+                color: var(--text-color);
+                text-decoration: inherit;
+
+                &:hover{
+                    color: #137fec;
+                }
+            }
