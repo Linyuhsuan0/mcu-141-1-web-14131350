@@ -28,7 +28,7 @@ main.wrapper {
     padding-left: var(--container-padding-left);
 
     > div{
-        outline: solid 1px red;
+        
         padding-block: 4rem;
 
         &.home{
@@ -37,6 +37,7 @@ main.wrapper {
         }
 
         &.page{
+        outline: solid 1px red;
         min-height: 700px;
         }
 
