@@ -1,0 +1,16 @@
+@use '../color';
+@use '../variable';
+@use './header';
+@use './main';
+@use './footer';
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+    
+}

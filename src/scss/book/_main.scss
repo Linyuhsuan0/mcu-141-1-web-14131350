@@ -1,0 +1,46 @@
+section{
+    width: 100%;
+
+    div{
+        &.container{
+
+        max-width: 90vw;
+        margin: 0 auto;
+
+        padding-right: var(--container-padding-right);
+        padding-left: var(--container-padding-left);
+
+        >div{
+            height: 4rem;
+            width: 100%;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            }
+
+    }
+}
+
+main.wrapper {
+    max-width: 90vw;
+    margin: 0 auto;
+    padding-right: var(--container-padding-right);
+    padding-left: var(--container-padding-left);
+
+    > div{
+        outline: solid 1px red;
+
+        &.home{
+            height: 100vh;
+
+        }
+
+        &.page{
+        min-height: 700vh;
+        }
+
+    }
+
+}
+}
